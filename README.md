@@ -1,2 +1,3 @@
 # Advanced-Programming
-Lesson
+
+This is a project for FSMVU BLM 305 LessonS
