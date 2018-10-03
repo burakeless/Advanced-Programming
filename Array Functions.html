@@ -33,8 +33,8 @@ function show() {
     xe.value = a[i];
 }
 
-function shiftLeft() {
-    a.shift();
+function reverse() {
+    a.reverse();
     outA.innerText = "a = [ "+ a.join(", ")+" ] "+a.length;
 }
 
@@ -59,8 +59,8 @@ x = <input type=text   id=xe value=53 style="width:99px">
 <input type=button value="push x"  onClick="push()">
 <input type=button value="x=pop"   onClick="popA()">
 <input type=button value="show i"   onClick="show()">
-<input type=button value="shift left"   onClick="shiftLeft()">
-<input type=button value="fill with xe"   onClick="fillWith()">
+<input type=button value="reverse"   onClick="reverse()">
+<input type=button value="fill with x"   onClick="fillWith()">
 </p>
 
 <hr />
