@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Add Course </title>
+</head>
+
+<script>
+"use strict";
+
+  var max=0; var maxName="";
+
+function addFunction() {
+  var courseName = document.getElementById("cn").value;
+  var midtermScore = document.getElementById("ms").value;
+  var finalScore = document.getElementById("fs").value;;
+  var courseInfo = [courseName,midtermScore,finalScore];
+
+  a.push(courseInfo);
+  console.log(a);
+}
+
+function printFunction() {
+  var temp1 = "";  var aligner2 = "    \t";
+
+  for (var i = 0; i < a.length; i++) {
+    for(var j= 0; j<a[i].length; j++){
+      var temp2 = a[i][j];
+      temp1 = temp1 + temp2;
+      var temp1 = temp1 + aligner2;
+   }
+ document.getElementById("outA").innerHTML = temp1 ;
+ temp1 = temp1 + "<br/>"
+ }
+}
+
+function avgFunction() {
+  var avg=0; var result=""; var aligner="     \t";
+
+  for (var i = 0; i < a.length; i++) {
+    avg = Number(a[i][1]) + Number(a[i][2]);
+    avg = avg /2 ;
+    if (avg > max){
+      maxName = a[i][0];
+      max = avg;
+    }
+    result = result + a[i][0];
+    result = result + aligner;
+    result = result + avg ;
+    result = result + "<br/>";
+  }
+  document.getElementById("outB").innerHTML = result;
+}
+
+function maxFunction() {
+    document.getElementById("outC").innerHTML = maxName + " " + max;
+}
+
+
+</script>
+
+<body>
+<h2 id=title></h2>
+
+<p>
+Name &emsp; <input type=text id=cn value=1  style="width:100px"> <br> <br>
+Midterm <input type=number id=ms value=53 style="width:100px"> <br> <br>
+Final &emsp; <input type=number id=fs value=53 style="width:100px">
+</p>
+
+<p>
+<input type=button value="Add"  onClick="addFunction()"> <br> <br>
+<input type=button value="Print"  onClick="printFunction()"> &emsp;
+<input type=button value="Avg"  onClick="avgFunction()">
+<input type=button value="Max"   onClick="maxFunction()">
+</p>
+
+<hr/>
+<p>Name &emsp;  Midterm &emsp;  Final</p>
+<p id=outA></p>
+<hr/>
+<p>Name &emsp; Average</p>
+<p id=outB></p>
+<hr/>
+<p>Name &emsp; Max</p>
+<p id=outC></p>
+
+
+<script>
+    title.innerText = document.title;
+    const a = [];  //initially
+
+</script>
+
+</body>
+</html>
