@@ -12,51 +12,45 @@
   var max=0; var maxName="";
 
 function addFunction() {
-  var courseName = document.getElementById("cn").value;
-  var midtermScore = document.getElementById("ms").value;
-  var finalScore = document.getElementById("fs").value;;
-  var courseInfo = [courseName,midtermScore,finalScore];
+  var courseName = document.getElementById("cn").value; //değeri al
+  var midtermScore = document.getElementById("ms").value; //değeri al
+  var finalScore = document.getElementById("fs").value;; //değeri al
+  var courseInfo = [courseName,midtermScore,finalScore]; //array içinde array yap
 
-  a.push(courseInfo);
-  console.log(a);
+  a.push(courseInfo); //arrayi push et
+  console.log(a); //konsola yadır
 }
 
 function printFunction() {
   var temp1 = "";  var aligner2 = "    \t";
 
-  for (var i = 0; i < a.length; i++) {
-    for(var j= 0; j<a[i].length; j++){
-      var temp2 = a[i][j];
-      temp1 = temp1 + temp2;
-      var temp1 = temp1 + aligner2;
+  for (var i = 0; i < a.length; i++) { //matris satır
+    for(var j= 0; j<a[i].length; j++){ //matris sütun
+      var temp2 = a[i][j];  //işlem yapacağım elemanı al
+      temp1 = temp1 + temp2 + "&emsp;&emsp;&emsp;";  //yanında boşluk bırakarak eşitle
    }
- document.getElementById("outA").innerHTML = temp1 ;
- temp1 = temp1 + "<br/>"
- }
+   document.getElementById("outA").innerHTML = temp1 ; //yazdır
+   temp1 = temp1 + "<br/>"
+  }
 }
 
 function avgFunction() {
   var avg=0; var result=""; var aligner="     \t";
 
-  for (var i = 0; i < a.length; i++) {
-    avg = Number(a[i][1]) + Number(a[i][2]);
-    avg = avg /2 ;
-    if (avg > max){
-      maxName = a[i][0];
-      max = avg;
-    }
-    result = result + a[i][0];
-    result = result + aligner;
-    result = result + avg ;
-    result = result + "<br/>";
+  for (var i = 0; i < a.length; i++) {  //dizide dolaş
+    avg = ( Number(a[i][1]) + Number(a[i][2]) ) /2;  //dizinin 2. ve 3. elemanının ortalamasını al
+      if (avg > max){ //ortalama ile max2'ı kıyasla (büyükse)
+        maxName = a[i][0];  //max name'i dizinin birinci elemanı yap
+        max = avg;    //max'a avg'yi aya
+      }
+    result = result + a[i][0] + "&emsp;&emsp;&emsp;" + avg + "<br/>" ; //result'a ata ve alt satıra geç
   }
-  document.getElementById("outB").innerHTML = result;
+  document.getElementById("outB").innerHTML = result; //sounucu yazdır
 }
 
 function maxFunction() {
-    document.getElementById("outC").innerHTML = maxName + " " + max;
+    document.getElementById("outC").innerHTML = maxName + "&emsp;&emsp;&emsp;" + max;  //max mame ve maz'ı yazdır
 }
-
 
 </script>
 
@@ -77,7 +71,7 @@ Final &emsp; <input type=number id=fs value=53 style="width:100px">
 </p>
 
 <hr/>
-<p>Name &emsp;  Midterm &emsp;  Final</p>
+<p>Name &emsp; Midterm &emsp; Final</p>
 <p id=outA></p>
 <hr/>
 <p>Name &emsp; Average</p>
