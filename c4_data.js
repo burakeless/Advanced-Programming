@@ -1,4 +1,5 @@
-﻿function phi([n00, n01, n10, n11]) {
+let counter=0;
+function phi([n00, n01, n10, n11]) {
   return (n11 * n00 - n10 * n01) /
     Math.sqrt((n10 + n11) * (n00 + n01) *
               (n01 + n11) * (n00 + n10));
@@ -12,6 +13,7 @@ function tableFor(evt) {
     if (entry.squirrel) index += 2;
     table[index] += 1;
   }
+  counter=table[1]+table[3];
   return table;
 }
 
@@ -20,7 +22,7 @@ function analyze(min=0) {
   for (let evt of EVENTS) {
     let cor = phi(tableFor(evt));
     if (Math.abs(cor) > min)
-      a.push(evt +": "+cor.toFixed(4))
+      a.push(evt +": "+cor.toFixed(4) + " " + counter)
   }
   return a
 }
@@ -33,8 +35,8 @@ function journalEvents() {
 }
 
 class Chap4 extends Menu {
-  correlation(evt) { 
-    return phi(window.tableFor(evt)) 
+  correlation(evt) {
+    return phi(window.tableFor(evt))
   }
   analyze(val) {
     return window.analyze(val)
