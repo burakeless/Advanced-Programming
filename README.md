@@ -2,4 +2,6 @@
 
 This is a project for FSMVU BLM 305 Lessons
 
-1. [sayac] (https://burakeless.github.io/Advanced-Programming/Empty%20page.html)
+[Char Counter](https://burakeless.github.io/Advanced-Programming/Char%20Counter.html)
+[Array Functions](https://github.io/burakeless/Advanced-Programming/master/Array%20Functions.html)
+[Homework#1 ](https://burakeless.github.io/Advanced-Programming/Homework#1.html)
