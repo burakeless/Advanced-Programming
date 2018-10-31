@@ -11,3 +11,5 @@ This is a project for FSMVU BLM 305 Lessons
 [To Sum Of A Range](https://burakeless.github.io/Advanced-Programming/images/The%20sum%20of%20a%20range.png)
 
 [Inspector](https://burakeless.github.io/Advanced-Programming/inspector.html)
+
+[Classwork#5](https://burakeless.github.io/Advanced-Programming/fetchRemoteFile.html)
