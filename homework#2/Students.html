@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="Database.js"></script>
+    <title>Homework#2: Students</title>
+</head>
+
+<script>
+    const S = new Database()
+    S.readStudent
+    S.readCourse
+
+    function givenGpaCount(){
+        S.findGivenGpaCount(idNumber.value)
+    }
+
+    function findStudent(){
+        let a = S.findingCourse(idNumber2.value)
+        let msg = a.number+"\t"+a.name+"\t"+a.gpa+"\t"+a.courses.length+"  Courses </br> "
+        for(let course of a.courses){
+            msg += course+"</br>"
+        }
+        out.innerHTML = msg
+    }
+
+    function findingCourse() {
+        let a = S.findingCourse(idNumber3.value)
+        out.innerHTML = a
+    }
+
+    function findRoom() {
+        let a = S.findingRooms(idNumber4.value)
+        out.innerHTML = a
+    }
+
+
+    function findMaxGpa(){
+        let maxGpa = S.findMaxGpa()
+        out.innerHTML =maxGpa.number+"\t"+maxGpa.name+"\t"+maxGpa.gpa
+    }
+
+    function findMinGpa(){
+        let minGpa = S.findMinGpa()
+        out.innerHTML =minGpa.number+"\t"+minGpa.name+"\t"+minGpa.gpa
+    }
+
+    function random(){
+        let a = S.randomStudent()
+       // let a = S.findingCourse(s)
+        console.log(a)
+        let msg = a.number+"\t"+a.name+"\t"+a.gpa+"\t"+a.courses.length+"Courses" + "</br>"
+        for(let course of a.courses){
+            msg += course+"</br>"
+        }
+           out.innerHTML = msg
+    }
+
+</script>
+
+<body>
+<h2 id=title>Homework#2: Students</h2>
+
+<p id=outA></p>
+
+<p>
+    <input type=button value="Random Student" onClick="random()">
+    <input type=button value="Best GPA" onClick="findMaxGpa()">
+    <input type=button value="Worst GPA" onClick="findMinGpa()">
+    <input type=button value="Clear" onClick="clear()">
+
+
+</p>
+
+<p>
+    <b>GPA: </b> &emsp;
+    <input type=text id=idNumber style="width:100px; margin-left: 6px;">
+   &emsp; <input type=button value="GPA count" onClick="givenGpaCount()">
+</p>
+
+<p>
+    <b>Student ID: </b> &emsp;
+    <input type=text id=idNumber2 style="width:100px; margin-left: 6px;">
+    &emsp; <input type=button value="Find Student" onClick="findStudent()">
+</p>
+
+<p>
+    <b>Course Code: </b> &emsp;
+    <input type=text id=idNumber3 style="width:100px; margin-left: 6px;">
+    &emsp; <input type=button value="Find Students" onClick="findingCourse()">
+</p>
+
+
+<p>
+    <b>Rooms: </b> &emsp;
+    <input type=text id=idNumber4 style="width:100px; margin-left: 6px;">
+    &emsp; <input type=button value="Find Course" onClick="findRoom()">
+</p>
+
+
+
+
+
+<hr />
+
+<pre><p id=out >Result:</p></pre>
+
+<hr />
+
+<p>
+
+</body>
+</html>

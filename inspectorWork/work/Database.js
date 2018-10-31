@@ -49,7 +49,7 @@ class Distance {
   get miles() {
     return Math.round(this.km * 0.62)
   }
-  set miles(value = 0) {
+  set miles(value) {
  this.km=Math.round(value / 0.62)
   }
   toString() {
