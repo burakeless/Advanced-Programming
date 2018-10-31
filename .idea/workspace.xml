@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="461181f5-bb97-4874-8eec-75a73abebd64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fetchRemoteFile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readingFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/readingFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetchRemoteFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/fetchRemoteFile.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,6 +31,7 @@
         <counts>
           <entry key="html" value="4" />
           <entry key="js" value="3" />
+          <entry key="ts" value="1" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -40,17 +40,18 @@
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="4" />
+          <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="804" />
+          <entry key="html" value="1221" />
           <entry key="js" value="1234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="804" />
+          <entry key="HTML" value="1221" />
           <entry key="JavaScript" value="1234" />
         </counts>
       </usages-collector>
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fetchRemoteFile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+            <state relative-caret-position="386">
+              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#input#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -129,6 +130,7 @@
       <find>findingRooms</find>
       <find>random</find>
       <find>116691657</find>
+      <find>out</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +155,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="986" />
+    <option name="x" value="59" />
+    <option name="y" value="43" />
+    <option name="width" value="1311" />
     <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -215,12 +219,12 @@
       <workItem from="1540832899434" duration="5281000" />
       <workItem from="1540890127424" duration="8822000" />
       <workItem from="1540900927485" duration="531000" />
-      <workItem from="1540987847633" duration="1272000" />
+      <workItem from="1540987847633" duration="6094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23228000" />
+    <option name="totallyTimeSpent" value="28050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="986" height="870" extended-state="0" />
@@ -329,10 +333,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="2504" column="4" selection-start-line="2504" selection-start-column="4" selection-end-line="2504" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fetchRemoteFile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        <state relative-caret-position="386">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#input#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

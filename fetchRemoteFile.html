@@ -8,6 +8,45 @@
 
 <script>
     "use strict";
+    var texts = [];
+    var remoteFile;
+    function isText(f) {
+        console.assert(f instanceof File);
+        return f.type.startsWith("text") || f.name.endsWith(".md")
+            || f.name.endsWith(".js") || f.name.endsWith(".java");
+    }
+
+    function reading(f){
+        var reader = new FileReader();
+        reader.onload = function(evt) { //text
+            const a = evt.target.result.replace(/</g, "&lt;");
+            out.innerHTML = "<pre>"+a+"</pre>";
+            texts.push(a);
+            console.log(texts)
+        };
+        reader.readAsText(f);
+    }
+
+    function fileSelect(t) {
+        console.assert(t == button);
+        for(let text of t.files){
+            reading(text)
+        }
+    }
+
+    function compare() {
+        texts.push(remoteFile);
+        console.log(texts)
+        for (let i = 0; i <= texts.length-1 ; i++) {
+            for (let j = i+1; j <= texts.length ; j++) {
+                if (texts[i] == texts[j]){
+                    out3.innerHTML = texts[i] +" = "+ texts[j]
+                }
+
+            }
+        }
+    }
+
     function hide() {
         state.style.visibility = "hidden";
     }
@@ -18,6 +57,7 @@
         show("OK"); setTimeout(hide, 1000);
         out.innerText = t;
         console.log(n? n : t);
+        remoteFile=t;
     }
     function readText() {
         show("FT"); // fetch text
@@ -49,14 +89,20 @@
 <pre id=out></pre>
 
 <hr />
-<b>Sample code</b>
-<pre id=sample></pre>
+
+<input type=file id=button onChange='fileSelect(this)' multiple />  <br> <br>
+<output id=msg>Select text or image </output>
+<output id=out2></output>
+<br> <br>
+
+<input type=button value="Compare" onClick="compare()">
+<output id=out3></output>
+
+
+
+
 <hr />
 
-<script>
-    title.innerText = document.title;
-    sample.innerText = readText+"\n"+readBlob;
-</script>
 
 </body>
 </html>
