@@ -13,3 +13,5 @@ This is a project for FSMVU BLM 305 Lessons
 [Inspector](https://burakeless.github.io/Advanced-Programming/inspector.html)
 
 [Classwork#5](https://burakeless.github.io/Advanced-Programming/fetchRemoteFile.html)
+
+[Classwork#6](https://burakeless.github.io/Advanced-Programming/fetchRemoteFile.html)

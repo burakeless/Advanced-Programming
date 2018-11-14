@@ -10,6 +10,7 @@
     "use strict";
     var texts = [];
     var remoteFile;
+
     function isText(f) {
         console.assert(f instanceof File);
         return f.type.startsWith("text") || f.name.endsWith(".md")
