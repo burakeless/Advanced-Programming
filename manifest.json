@@ -1,5 +1,12 @@
 {
   "name": "sample",
   "start_url": "/tableWork.html",
-  "display": "standalone"
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "a1.png",
+      "sizes": "135x107",
+      "type": "image/png"
+    }
+  ]
 }
