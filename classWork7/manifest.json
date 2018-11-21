@@ -2,13 +2,13 @@
   "name": "JavaScript samples",
   "short_name": "JS",
   "description": "JavaScript sample files",
-  "start_url": "https://burakeless.github.io/Advanced-Programming/classWork#7",
+  "start_url": "https://burakeless.github.io/Advanced-Programming/classWork7",
   "display": "standalone",
   "background_color": "cyan",
   "theme_color": "cyan",
   "icons": [
     {
-      "src": "https://burakeless.github.io/Advanced-Programming/classWork%237/a1.png",
+      "src": "https://burakeless.github.io/Advanced-Programming/classWork7/a1.png",
       "sizes": "135x107",
       "type": "image/png"
     }
