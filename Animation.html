@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width">
+    <title>animate element with Web Animations API</title>
+
+    <style>
+        .box {
+            background-color: #00067a;
+            border-radius: 5px;
+            height: 100px;
+            width: 100px;
+        }
+
+        .circle {
+            background-color: #a30004;
+            border-radius: 50px;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+<div id="js-box" class="box"></div>
+<div id="js-circle" class="circle"></div>
+<input id="js-play" type="button" value="play">
+<input id="js-pause" type="button" value="pause">
+<input id="js-finish" type="button" value="finish">
+<input id="js-reverse" type="button" value="reverse">
+<input id="js-cancel" type="button" value="cancel">
+
+<script>
+    'use strict';
+
+    var box = document.getElementById('js-box');
+
+    box.animate([{ transform: 'rotate(0deg)' },{ transform: 'rotate(360deg)' }], {duration: 3000,iterations: Infinity});
+
+    var circle = document.getElementById('js-circle');
+
+    var play = document.getElementById('js-play'),
+        pause = document.getElementById('js-pause'),
+        finish = document.getElementById('js-finish'),
+        reverse = document.getElementById('js-reverse'),
+        cancel = document.getElementById('js-cancel');
+
+    var animation = circle.animate([{ transform: 'translate(0px, 0px)' },{ transform: 'translate(750px, 750px)' }], 3000);
+
+    play.addEventListener('click', function() {animation.play();}, false);
+    pause.addEventListener('click', function() {animation.pause();}, false);
+    finish.addEventListener('click', function() {animation.finish();}, false);
+    reverse.addEventListener('click', function() {animation.reverse();}, false);
+    cancel.addEventListener('click', function() {animation.cancel();}, false);
+</script>
+
+</body>
+</html>

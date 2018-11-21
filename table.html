@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Make a Table </title>
+</head>
+
+<style>
+    table { border-collapse: collapse; }
+    th { color: #902cff; padding: 5px 5px; }
+    td {
+        border: 1px solid #ff5e00;
+        padding: 5px 5px;
+        text-align: center;
+    }
+</style>
+
+<script>
+    "use strict";
+
+    document.getElementById("tablo").hidden = true;
+
+    function makeRows(m, n) {
+
+        document.getElementById("tableCreator")
+            .addEventListener("click", function() {
+                document.getElementById("welcome").hidden = true;
+                document.getElementById("tablo").hidden = false;
+            }, false);
+
+        let row = "<th></th>";
+        for (let j = 1; j <= n; j++)
+            row += "<th>"+j+"</th>";
+        let text = "<tr>"+row+"</tr>";
+        for (let i = 1; i <= m; i++) {
+            row = "<th>"+i+"</th>";
+            for (let j = 1; j <= n; j++) {
+                let a=Math.random();
+                row += "<td>"+a+"</td>";
+            }
+            text += "<tr>"+row+"</tr>";
+        }
+
+        tablo.innerHTML = text; out.innerText = t;
+    }
+
+    function tableFromInput() {
+        const m = rows.value;
+        const n = cols.value;
+        makeRows(m, n);
+    }
+
+</script>
+
+<body>
+<div style="text-align: center;">
+
+    <div id="welcome" class="panel">
+        <h1>Welcome!</h1>
+        <p>Enter row and column numbers and click the button for create random table</p>
+    </div>
+
+    <table id="tablo" hidden></table>
+
+    <p id=out style="font-size:smaller"></p>
+
+    <form oninput="tableFromInput()">
+        Rows:
+        <input type=number id=rows style="width:40px" value=7>
+        Columns:
+        <input type=number id=cols style="width:40px" value=8>
+        <br><br>
+        <input type=button id=tableCreator value="Create Random Table" onclick="tableFromInput()">
+    </form>
+
+</div>
+
+<pre id=sample></pre>
+
+<script>
+    makeRows(7, 8);
+</script>
+
+</body>
+</html>
