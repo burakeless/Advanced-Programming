@@ -1,4 +1,4 @@
-navigator.serviceWorker.register('/service-worker.js')
+navigator.serviceWorker.register('/service-worker.js');
 
 const CACHE ='JS'
 const FILES = ['/tableWork.html']
