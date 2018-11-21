@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="461181f5-bb97-4874-8eec-75a73abebd64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classWork7/cw7.html" beforeDir="false" afterPath="$PROJECT_DIR$/classWork7/cw7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classWork7/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/classWork7/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classWork7/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/classWork7/sw.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/classWork7/cw7.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="70" />
+              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/classWork7/sw.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="94" selection-start-column="94" selection-end-column="94" />
+              <caret column="113" selection-start-column="113" selection-end-column="113" />
             </state>
           </provider>
         </entry>
@@ -202,12 +199,12 @@
       <workItem from="1542544624491" duration="939000" />
       <workItem from="1542795169816" duration="11867000" />
       <workItem from="1542817023197" duration="3753000" />
-      <workItem from="1542821156572" duration="454000" />
+      <workItem from="1542821156572" duration="877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57362000" />
+    <option name="totallyTimeSpent" value="57785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -384,17 +381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classWork7/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classWork7/cw7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="70" />
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="78" />
           <folding>
             <element signature="n#style#0;n#input#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -404,10 +394,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classWork7/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classWork7/sw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="94" selection-start-column="94" selection-end-column="94" />
+          <caret column="113" selection-start-column="113" selection-end-column="113" />
         </state>
       </provider>
     </entry>
