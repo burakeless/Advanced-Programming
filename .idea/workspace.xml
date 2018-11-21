@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="461181f5-bb97-4874-8eec-75a73abebd64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/tableWork.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,7 +99,7 @@
         <counts>
           <entry key="html" value="444" />
           <entry key="jason" value="38" />
-          <entry key="js" value="129" />
+          <entry key="js" value="141" />
           <entry key="json" value="13" />
           <entry key="md" value="3" />
         </counts>
@@ -106,7 +108,7 @@
         <counts>
           <entry key="HTML" value="444" />
           <entry key="JSON" value="51" />
-          <entry key="JavaScript" value="129" />
+          <entry key="JavaScript" value="141" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -117,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service-worker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="53" selection-start-column="53" selection-end-column="53" />
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -272,20 +274,21 @@
       <workItem from="1542461574385" duration="3619000" />
       <workItem from="1542469636312" duration="628000" />
       <workItem from="1542544624491" duration="939000" />
-      <workItem from="1542795169816" duration="10149000" />
+      <workItem from="1542795169816" duration="10644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51437000" />
+    <option name="totallyTimeSpent" value="51932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22293815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22293815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -487,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
