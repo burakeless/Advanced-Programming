@@ -10,13 +10,13 @@
     "use strict";
     function Add(){
         var ad = nameandsurname_tf.value
-        eklenenler.push(ad);
+        added.push(ad);
         var address = address_tf.value;
-        eklenenler.push(address);
+        added.push(address);
         var phone = Number(number_tf.value);
-        eklenenler.push(phone);
+        added.push(phone);
         var fax = Number(fax_tf.value);
-        eklenenler.push(fax);
+        added.push(fax);
     }
     function makeRows(){
         let row = "<th></th>";
@@ -25,13 +25,13 @@
         row += "<th>"+"Phone"+"</th>";
         row += "<th>"+"Fax"+"</th>";
         let text = "<tr>"+row+"</tr>";
-        for (let i = 0; i < eklenenler.length/4; i++) {
+        for (let i = 0; i < added.length/4; i++) {
             row = "<th>"+"</th>";
 
-            row +="<td>"+eklenenler[i*4]+"</td>";
-            row +="<td>"+eklenenler[i*4+1]+"</td>";
-            row +="<td>"+eklenenler[i*4+2]+"</td>";
-            row +="<td>"+eklenenler[i*4+3]+"</td>";
+            row +="<td>"+added[i*4]+"</td>";
+            row +="<td>"+added[i*4+1]+"</td>";
+            row +="<td>"+added[i*4+2]+"</td>";
+            row +="<td>"+added[i*4+3]+"</td>";
             text += "<tr>"+row+"</tr>";
         }
         tablo.innerHTML = text;
@@ -62,18 +62,17 @@
 Ref:
 <a href="https://maeyler.github.io/JS/hard/Table%20maker.html" target="ExternalDocument">Table Examples</a>
 <br>
-ClassWork#7: <a href="https://selimtural.github.io/JavaS/CW7">CW7</a>
+<a href="https://burakeless.github.io/Advanced-Programming/classWork%237/cw7.html">ClassWork#7</a>
 <br>
-HomeWork#3: <a href="https://burakeless.github.io/Advanced-Programming/Animation.html">Homework 3</a>
+<a href="https://burakeless.github.io/Advanced-Programming/Animation.html">Homework 3</a>
 <br>
-My Repositorie: <a href="https://burakeless.github.io/Advanced-Programming">My Github Repo</a>
+<a href="https://burakeless.github.io/Advanced-Programming">My Github Repo</a>
 </body>
 
 
 <script>
 
-    var eklenenler=[];
-    var maxDizi=[];
+    var added=[];
 </script>
 
 
