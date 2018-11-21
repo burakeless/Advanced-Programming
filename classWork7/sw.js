@@ -1,3 +1,5 @@
+navigator.serviceWorker.register('https://burakeless.github.io/Advanced-Programming/classWork7/sw.js')
+
 const CACHE ='JS'
 function installCB(e) {
   console.log('installed', e.request);
