@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classWork7/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+            <state relative-caret-position="170">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/classWork7/sw.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="113" selection-start-column="113" selection-end-column="113" />
+              <caret column="94" selection-start-column="94" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -199,12 +199,12 @@
       <workItem from="1542544624491" duration="939000" />
       <workItem from="1542795169816" duration="11867000" />
       <workItem from="1542817023197" duration="3753000" />
-      <workItem from="1542821156572" duration="877000" />
+      <workItem from="1542821156572" duration="1138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57785000" />
+    <option name="totallyTimeSpent" value="58046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -381,6 +381,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classWork7/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classWork7/cw7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -394,17 +401,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classWork7/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classWork7/sw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="113" selection-start-column="113" selection-end-column="113" />
+          <caret column="94" selection-start-column="94" selection-end-column="94" />
         </state>
       </provider>
     </entry>
