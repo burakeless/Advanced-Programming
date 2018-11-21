@@ -53,47 +53,7 @@
 
 
 
-    function Max(){
-        let temp=0;
-        maxDizi=[];
-        for(let i=0; i<eklenenler.length/3; i++){
-            if(temp==0)
-                temp=eklenenler[2];
 
-            if(temp<eklenenler[i*3+2]){
-                temp=eklenenler[i*3+2];
-
-            }
-
-        }
-
-        for(let i=0; i<eklenenler.length/3; i++){
-            if(temp==eklenenler[i*3+2]){
-                maxDizi.push(eklenenler[i*3]);
-                maxDizi.push(temp);
-                break;
-            }
-
-        }
-        let row = "<th></th>";
-        row += "<th>"+"Name"+"</th>";
-        row += "<th>"+"Aldığı Maaş"+"</th>";
-        let text2 = "<tr>"+row+"</tr>";
-        row = "<th>"+"</th>";
-
-        row +="<td>"+maxDizi[0]+"</td>";
-        row +="<td>"+maxDizi[1]+"</td>";
-        console.log(temp);
-        text2 += "<tr>"+row+"</tr>";
-
-        tablo3.innerHTML = text2;
-    }
-
-    function Güncelle(){
-        Print();
-        Max();
-
-    }
 </script>
 <body>
 
@@ -105,8 +65,6 @@
 
     <input type=button value="Add"  onClick="Add()">
     <input type=button value=" Print "  onClick="Print()">
-    <input type=button value="Max"    onclick="Max()">
-    <input type=button value="Güncelle"    onclick="Güncelle()">
 </p>
 <hr />
 <table id="tablo" >
