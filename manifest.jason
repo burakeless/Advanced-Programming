@@ -1,0 +1,5 @@
+{
+  "name": "sample",
+  "start_url": "/tableWork.html",
+  "display": "standalone"
+}
