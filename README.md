@@ -15,3 +15,7 @@ This is a project for FSMVU BLM 305 Lessons
 [Classwork#5](https://burakeless.github.io/Advanced-Programming/fetchRemoteFile.html)
 
 [Classwork#6](https://burakeless.github.io/Advanced-Programming/Timing.html)
+
+[Homework#3](https://burakeless.github.io/Advanced-Programming/Animation.html)
+
+[Classwork#7](https://burakeless.github.io/Advanced-Programming/classWork%237/cw7.html)
