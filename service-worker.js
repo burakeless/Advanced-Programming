@@ -27,21 +27,3 @@ function fetchCB(e) { //fetch first
     )
 }
 self.addEventListener('fetch', fetchCB)
-
-//-------------------------------------------
-
-self.addEventListener('install', async event => {
-    const cache = await caches.open('static-sample');
-    cache.addAll(staticAssets);
-});
-
-self.addEventListener('fetch', event => {
-    const {request} = event;
-    const url = new URL(request.url);
-    if(url.origin === location.origin) {
-        event.respondWith(cacheData(request));
-    } else {
-        event.respondWith(networkFirst(request));
-    }
-
-});
