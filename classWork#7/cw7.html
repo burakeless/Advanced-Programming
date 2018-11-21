@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>cw7</title>
+</head>
+
+<script>
+    "use strict";
+    function Add(){
+        var ad = nameandsurname_tf.value
+        eklenenler.push(ad);
+        var address = address_tf.value;
+        eklenenler.push(address);
+        var phone = Number(number_tf.value);
+        eklenenler.push(phone);
+        var fax = Number(fax_tf.value);
+        eklenenler.push(fax);
+    }
+    function makeRows(){
+        let row = "<th></th>";
+        row += "<th>"+"Name/Surname"+"</th>";
+        row += "<th>"+"Address"+"</th>";
+        row += "<th>"+"Phone"+"</th>";
+        row += "<th>"+"Fax"+"</th>";
+        let text = "<tr>"+row+"</tr>";
+        for (let i = 0; i < eklenenler.length/4; i++) {
+            row = "<th>"+"</th>";
+
+            row +="<td>"+eklenenler[i*4]+"</td>";
+            row +="<td>"+eklenenler[i*4+1]+"</td>";
+            row +="<td>"+eklenenler[i*4+2]+"</td>";
+            row +="<td>"+eklenenler[i*4+3]+"</td>";
+            text += "<tr>"+row+"</tr>";
+        }
+        tablo.innerHTML = text;
+    }
+    function Print(){
+        makeRows();
+    }
+
+</script>
+<body>
+<p>Add Client </p>
+<p>Name/Surname    = <input type=text   id=nameandsurname_tf style="width:99px"> </P>
+<p>Address = <input type=text id="address_tf" style="width:99px"> </P>
+<p>Phone   = <input type=number   id=number_tf style="width:99px"> </P>
+<p>Fax   = <input type=number   id=fax_tf style="width:99px"> </P>
+<p>
+
+<input type=button value="Add"  onClick="Add()">
+<input type=button value=" Print "  onClick="Print()">
+
+</p>
+<hr />
+<table id="tablo" >
+
+</table>
+<hr />
+
+Ref:
+<a href="https://maeyler.github.io/JS/hard/Table%20maker.html" target="ExternalDocument">Table Examples</a>
+<br>
+ClassWork#7: <a href="https://selimtural.github.io/JavaS/CW7">CW7</a>
+<br>
+HomeWork#3: <a href="https://burakeless.github.io/Advanced-Programming/Animation.html">Homework 3</a>
+<br>
+My Repositorie: <a href="https://burakeless.github.io/Advanced-Programming">My Github Repo</a>
+</body>
+
+
+<script>
+
+    var eklenenler=[];
+    var maxDizi=[];
+</script>
+
+
+</html>
