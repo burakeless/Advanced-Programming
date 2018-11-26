@@ -4,19 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>cw7</title>
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="../manifest.json">
 </head>
 
 <script>
     "use strict";
-
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker
-            .register('https://burakeless.github.io/Advanced-Programming/classWork7/sw.js')
-            .then((reg) => { console.log('SW Registered', reg) })
-            .catch(console.log)
-    }
-
 
     function Add(){
         var ad = nameandsurname_tf.value
