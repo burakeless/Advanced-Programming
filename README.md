@@ -32,5 +32,5 @@ Homeworks
 
 [Homework#3](https://burakeless.github.io/Advanced-Programming/Animation.html)
 
-[Homewoek#4](https://burakeless.github.io/Advanced-Programming/site/index.html)
+[Homework#4](https://burakeless.github.io/Advanced-Programming/site/index.html)
 
