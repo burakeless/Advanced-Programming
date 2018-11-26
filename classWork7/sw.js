@@ -1,13 +1,6 @@
-navigator.serviceWorker.register('https://burakeless.github.io/Advanced-Programming/classWork7/sw.js')
-
 const CACHE ='JS'
-const FILES = ['https://burakeless.github.io/Advanced-Programming/classWork7/cw7.html']
 function installCB(e) {
-    e.waitUntil(
-        caches.open(CACHE)
-            .then(cache => cache.addAll(FILES))
-            .catch(console.log)
-    )
+    console.log('install oldu', e.request);
 }
 self.addEventListener('install', installCB)
 
@@ -21,6 +14,7 @@ function save(req, resp) {
 }
 function fetchCB(e) { //fetch first
     let req = e.request
+    console.log('JS', req.url);
     e.respondWith(
         fetch(req).then(r2 => save(req, r2))
             .catch(() => { return caches.match(req).then(r1 => r1) })

@@ -1,15 +1,13 @@
 {
-  "name": "JavaScript samples",
-  "short_name": "JS",
-  "description": "JavaScript sample files",
-  "start_url": "https://burakeless.github.io/Advanced-Programming/classWork7/cw7.html",
-  "display": "standalone",
+  "name": "Burak Keles",
+  "start_url": "/Advanced-Programming",
+  "display": "fullscreen",
+  "orientation": "portrait",
   "background_color": "cyan",
-  "theme_color": "cyan",
   "icons": [
     {
-      "src": "https://burakeless.github.io/Advanced-Programming/classWork7/a1.png",
-      "sizes": "135x107",
+      "src": "bk.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ]
