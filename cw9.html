@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SVG and Canvas </title>
+
+    <style>
+        svg, canvas {
+            background: cyan;
+            font: 10px arial, sans-serif;
+        }
+     </style>
+</head>
+
+<body>
+
+<h2>SVG</h2>
+
+<svg id='svg' width='530' height='200'
+     xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <path d="M10,110 A120,120 -45 0,1 110 10 A120,120 -45 0,1 10,110"
+    stroke="cyan" stroke-width="2"
+    fill="none" id="theMotionPath"/>
+
+    <circle id='circle1' cx='50' cy='50' r='40'
+            style='fill:yellow;stroke:blue;stroke-width:4'>
+
+    <animateMotion dur="6s" repeatCount="indefinite">
+        <mpath xlink:href="#theMotionPath"/>
+    </animateMotion>
+
+    </circle>
+
+
+    <rect id='rect1' x='260' y='10' width='100' height='80'
+          style='fill:pink;stroke:red;stroke-width:5' />
+
+    <rect id='rect2' x="400" y="10" rx="20" ry="20" width="80" height="80"
+           style='fill:red;stroke:black;stroke-width:5' />
+</svg>
+
+
+<br><br>
+
+Circle Fill &emsp;  &emsp; Circle Stroke  &emsp; &emsp; Rect1 Fill  &emsp; &emsp; Rect1 Stroke  &emsp; &emsp; Rect2 Fill  &emsp; &emsp; Rect2 Stroke
+
+<br><br>
+
+<button onclick="circle1.style.fill='blue';" style="width: 75px">Blue </button>
+&emsp;&emsp; <button onclick="circle1.style.stroke='blue';" style="width: 75px">Blue </button>
+&emsp;&emsp; <button onclick="rect1.style.fill='blue';" style="width: 75px">Blue </button>
+&emsp;&emsp; <button onclick="rect1.style.stroke='blue';" style="width: 75px">Blue </button>
+&emsp;&emsp; <button onclick="rect2.style.fill='blue';" style="width: 75px">Blue </button>
+&emsp;&emsp; <button onclick="rect2.style.stroke='blue';" style="width: 75px">Blue </button>
+
+<br><br>
+<button onclick="circle1.style.fill='red';" style="width: 75px"> Red </button>
+&emsp;&emsp; <button onclick="circle1.style.stroke='red';" style="width: 75px">Red </button>
+&emsp;&emsp; <button onclick="rect1.style.fill='red';" style="width: 75px">Red </button>
+&emsp;&emsp; <button onclick="rect1.style.stroke='red';" style="width: 75px">Red </button>
+&emsp;&emsp; <button onclick="rect2.style.fill='red';" style="width: 75px">Red </button>
+&emsp;&emsp; <button onclick="rect2.style.stroke='red';" style="width: 75px">Red </button>
+
+<br><br>
+<button onclick="circle1.style.fill='green';" style="width: 75px">Green</button>
+&emsp;&emsp; <button onclick="circle1.style.stroke='green';" style="width: 75px">Green </button>
+&emsp;&emsp; <button onclick="rect1.style.fill='green';" style="width: 75px">Green </button>
+&emsp;&emsp; <button onclick="rect1.style.stroke='green';" style="width: 75px">Green </button>
+&emsp;&emsp; <button onclick="rect2.style.fill='green';" style="width: 75px">Green </button>
+&emsp;&emsp; <button onclick="rect2.style.stroke='green';" style="width: 75px">Green </button>
+
+<script>
+    "use strict";
+    function draw() {
+        cx.beginPath(); cx.lineWidth = 4;
+        cx.fillStyle = "yellow"; cx.strokeStyle = "blue";
+        cx.arc(50, 50, 40, 0, 2*Math.PI);
+        cx.fill(); cx.stroke();
+        cx.fillStyle = "black";
+        cx.fillText("arc",44,55);
+        cx.beginPath(); cx.lineWidth = 5;
+        cx.fillStyle = "pink"; cx.strokeStyle = "red";
+        cx.rect(110, 10, 100, 80);
+        cx.fill(); cx.stroke();
+        cx.fillStyle = "black";
+        cx.fillText("rect",148,55);
+    }
+    sample.innerText = draw;
+    const cx = canvas.getContext("2d");
+    draw();
+</script>
+
+</body>
+</html>
