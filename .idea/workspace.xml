@@ -5,77 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="461181f5-bb97-4874-8eec-75a73abebd64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classWork7/cw7.html" beforeDir="false" afterPath="$PROJECT_DIR$/classWork7/cw7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/css/ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/css/ie9.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ie9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/css/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/images/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/css/images/ie/grad0-20.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/images/ie/grad0-20.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/ie/PIE.htc" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/PIE.htc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/ie/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/ie/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/ie/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/jquery.scrolly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.scrolly.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/skel-viewport.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skel-viewport.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/sass/ie8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/ie8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/sass/ie9.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/ie9.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/sass/libs/_skel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/bk.png" beforeDir="false" afterPath="$PROJECT_DIR$/bk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/bk16.png" beforeDir="false" afterPath="$PROJECT_DIR$/bk16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/BurakelessMain.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BurakelessMain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/alpcelik.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/alpcelik.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/burakeless.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/burakeless.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/burcugeneci.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/burcugeneci.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/caneryildirim.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/caneryildirim.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/devfest14.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/devfest14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/elifboncuk.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/elifboncuk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/erolkaftanoglu.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/erolkaftanoglu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/esinisik.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/esinisik.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/facebook256.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/facebook256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/gdg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/gdg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/gdgturkeymap.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/gdgturkeymap.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/instagram256.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/instagram256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/jakewharton.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/jakewharton.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/linkedin256.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/linkedin256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/mail256.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mail256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic00.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic01 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic01 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic02 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic02 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic03 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic03 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic04 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic04 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic05 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic05 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic06 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic06 (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/pic07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pic07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/sercanyusuf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sercanyusuf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/twitter256.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/twitter256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/umitduran.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/umitduran.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/uxnedir.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/uxnedir.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/images/yusufcakmak.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/yusufcakmak.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -139,16 +69,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sw.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -220,9 +150,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="391" />
-    <option name="y" value="-24" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="336" />
+    <option name="y" value="-22" />
     <option name="width" value="814" />
     <option name="height" value="877" />
   </component>
@@ -306,12 +236,12 @@
       <workItem from="1543406378569" duration="1536000" />
       <workItem from="1543421094719" duration="55000" />
       <workItem from="1544007104921" duration="8416000" />
-      <workItem from="1544175964649" duration="456000" />
+      <workItem from="1544175964649" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81701000" />
+    <option name="totallyTimeSpent" value="81848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -534,17 +464,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
