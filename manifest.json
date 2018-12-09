@@ -6,7 +6,7 @@
   "background_color": "cyan",
   "icons": [
     {
-      "src": "/images/bk.png",
+      "src": "https://burakeless.github.io/Advanced-Programming/images/bk.png",
       "sizes": "192x192",
       "type": "image/png"
     }
