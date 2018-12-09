@@ -23,6 +23,8 @@ Classwork6: [Timing](https://burakeless.github.io/Advanced-Programming/Classwork
 
 Classwork7: [First Pwa Attempt](https://burakeless.github.io/Advanced-Programming/Classwork7/FirstTimePWA.html)
 
+Classwork8: [Promise Fetch And Cache](https://burakeless.github.io/Advanced-Programming/Classwork8/PromiseFetchCache.html)
+
 Classwork9: [Scalable Vector Graphics](https://burakeless.github.io/Advanced-Programming/Classwork9/ScalableVectorGraphics.html)
 
 <br>
