@@ -71,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -212,6 +212,7 @@
       <recent name="D:\GitHubProjects\Advanced-Programming\Homework2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHubProjects\Advanced-Programming\images" />
       <recent name="D:\GitHubProjects\Advanced-Programming\Classwork8" />
     </key>
   </component>
@@ -262,12 +263,12 @@
       <workItem from="1544175964649" duration="2039000" />
       <workItem from="1544350700527" duration="6375000" />
       <workItem from="1544360400492" duration="5080000" />
-      <workItem from="1544373032426" duration="1776000" />
+      <workItem from="1544373032426" duration="2088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96515000" />
+    <option name="totallyTimeSpent" value="96827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -655,7 +656,7 @@
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
