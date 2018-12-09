@@ -7,32 +7,34 @@ This is a project for FSMVU BLM 305 Lessons
 
 Classworks
 
-[Classwork#1](https://burakeless.github.io/Advanced-Programming/Char%20Counter.html)
+Classwork1: [Modify And Chessboard](https://burakeless.github.io/Advanced-Programming/Classwork1/Modify_HTML_Items_And_Chessboard.png)
 
-[Classwork#2](https://burakeless.github.io/Advanced-Programming/Array%20Functions.html)
+Classwork2:[Array Functions](https://burakeless.github.io/Advanced-Programming/Classwork2/ArrayFunctions.html) ,
+[Char Counter](https://burakeless.github.io/Advanced-Programming/Classwork2/CharCounter.html)
 
-[Classwork#3](https://burakeless.github.io/Advanced-Programming/images/The%20sum%20of%20a%20range.png)
+Classwork3: [Data Analysis](https://burakeless.github.io/Advanced-Programming/Classwork3/DataAnalysis.html) ,
+[Sum of Range](https://burakeless.github.io/Advanced-Programming/images/The_Sum_Of_A_Range.png)
 
-[Classwork#4](https://burakeless.github.io/Advanced-Programming/inspector.html)
+Classwork4: [Inspector](https://burakeless.github.io/Advanced-Programming/Classwork4/Inspector.html)
 
-[Classwork#5](https://burakeless.github.io/Advanced-Programming/fetchRemoteFile.html)
+Classwork5: [File Operations](https://burakeless.github.io/Advanced-Programming/Classwork5/FileOperations.html)
 
-[Classwork#6](https://burakeless.github.io/Advanced-Programming/Timing.html)
+Classwork6: [Timing](https://burakeless.github.io/Advanced-Programming/Classwork6/Timing.html)
 
-[Classwork#7](https://burakeless.github.io/Advanced-Programming/classWork7/cw7.html)
+Classwork7: [First Pwa Attempt](https://burakeless.github.io/Advanced-Programming/Classwork7/FirstTimePWA.html)
 
-[Classwork#9](https://burakeless.github.io/Advanced-Programming/cw9.html)
+Classwork9: [Scalable Vector Graphics](https://burakeless.github.io/Advanced-Programming/Classwork9/ScalableVectorGraphics.html)
 
 <br>
 <br>
 
 Homeworks
 
-[Homework#1](https://burakeless.github.io/Advanced-Programming/Homework%231.html)
+Homework1: [Array Student System](https://burakeless.github.io/Advanced-Programming/Homework1/ArrayStudentSystem.html)
 
-[Homework#2](https://burakeless.github.io/Advanced-Programming/homework%232/Students.html)
+Homework2: [Database Based Student System](https://burakeless.github.io/Advanced-Programming/Homework2/DatabaseBasedStudentSystem.html)
 
-[Homework#3](https://burakeless.github.io/Advanced-Programming/Animation.html)
+Homework3: [Animation](https://burakeless.github.io/Advanced-Programming/Homework3/Animation.html)
 
-[Homework#4](https://burakeless.github.io/Advanced-Programming/index.html)
+Homework4: [PWA Repo](https://burakeless.github.io/Advanced-Programming/index.html)
 
