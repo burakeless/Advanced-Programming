@@ -7,7 +7,7 @@ This is a project for FSMVU BLM 305 Lessons
 
 Classworks
 
-Classwork1: [Modify And Chessboard](https://burakeless.github.io/Advanced-Programming/Classwork1/Modify_HTML_Items_And_Chessboard.png)
+Classwork1: [Modify And Chessboard](https://burakeless.github.io/Advanced-Programming/Classwork1/ItemsAndChessboard.html)
 
 Classwork2:[Array Functions](https://burakeless.github.io/Advanced-Programming/Classwork2/ArrayFunctions.html) ,
 [Char Counter](https://burakeless.github.io/Advanced-Programming/Classwork2/CharCounter.html)
