@@ -1,0 +1,36 @@
+html {
+    background: #383838;
+    background-size: cover;
+    height: 100%;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+body {
+    width: 90%;
+    width: 90vw;
+    margin: 1vh auto;
+    color: black; }
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #FFF; }
+
+.elements {
+    font-size: 10px; }
+@media screen and (min-width: 300px) {
+    .elements {
+        font-size: 12px } }
+@media screen and (min-width: 1920px) {
+    .elements {
+        font-size: 18px; } }
+
+.element {
+    display: none; }
+
+.key {
+    display: none; }
+
+.element.group-base {
+    background-color: #d48489; }
+.element.group-base:hover {
+    background-color: #e1aaad; }

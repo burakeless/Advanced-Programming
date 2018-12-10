@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="461181f5-bb97-4874-8eec-75a73abebd64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TermProject/PTmain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TermProject/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TermProject/periodictable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -22,8 +25,55 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="85" column="86" selection-start-line="85" selection-start-column="86" selection-end-line="85" selection-end-column="86" />
+            <state relative-caret-position="204">
+              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TermProject/periodictable.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TermProject/PTmain.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#5#150#0" />
+                <element signature="e#157#233#0" />
+                <element signature="e#238#305#0" />
+                <element signature="e#317#341#0" />
+                <element signature="e#342#424#0" />
+                <element signature="e#425#509#0" />
+                <element signature="e#520#542#0" />
+                <element signature="e#549#571#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TermProject/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2431">
+              <caret line="94" selection-start-line="94" selection-end-line="97" selection-end-column="32" />
+              <folding>
+                <element signature="e#5#150#0" />
+                <element signature="e#157#233#0" />
+                <element signature="e#238#305#0" />
+                <element signature="e#317#341#0" />
+                <element signature="e#342#424#0" />
+                <element signature="e#425#509#0" />
+                <element signature="e#520#542#0" />
+                <element signature="e#549#571#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +86,8 @@
         <option value="package.json" />
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -106,13 +156,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Classwork8/PromiseFetchCache.html" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/TermProject/main.css" />
+        <option value="$PROJECT_DIR$/TermProject/PTmain.css" />
+        <option value="$PROJECT_DIR$/TermProject/periodictable.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
-    <option name="width" value="814" />
+    <option name="x" value="339" />
+    <option name="y" value="95" />
+    <option name="width" value="867" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -123,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,23 +185,17 @@
               <item name="Advanced-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced-Programming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Advanced-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="settin&#9;ACTION&#9;ShowSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/İndirilenler/Sıkıştırılmış/AdvancedProgramming-master/AdvancedProgramming-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/periodic_table" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -211,12 +260,13 @@
       <workItem from="1544350700527" duration="6375000" />
       <workItem from="1544360400492" duration="5080000" />
       <workItem from="1544373032426" duration="2307000" />
-      <workItem from="1544380146402" duration="864000" />
+      <workItem from="1544380146402" duration="971000" />
+      <workItem from="1544424396944" duration="1127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97910000" />
+    <option name="totallyTimeSpent" value="99144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -287,9 +337,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/pic03 (2).jpg" />
-    <entry file="file://$PROJECT_DIR$/images/pic04.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/pic04 (2).jpg" />
     <entry file="file://$PROJECT_DIR$/images/pic05.jpg" />
     <entry file="file://$PROJECT_DIR$/images/pic05 (2).jpg" />
     <entry file="file://$PROJECT_DIR$/images/pic06.jpg" />
@@ -599,10 +646,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TermProject/periodictable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TermProject/PTmain.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#5#150#0" />
+            <element signature="e#157#233#0" />
+            <element signature="e#238#305#0" />
+            <element signature="e#317#341#0" />
+            <element signature="e#342#424#0" />
+            <element signature="e#425#509#0" />
+            <element signature="e#520#542#0" />
+            <element signature="e#549#571#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TermProject/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2431">
+          <caret line="94" selection-start-line="94" selection-end-line="97" selection-end-column="32" />
+          <folding>
+            <element signature="e#5#150#0" />
+            <element signature="e#157#233#0" />
+            <element signature="e#238#305#0" />
+            <element signature="e#317#341#0" />
+            <element signature="e#342#424#0" />
+            <element signature="e#425#509#0" />
+            <element signature="e#520#542#0" />
+            <element signature="e#549#571#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="85" column="86" selection-start-line="85" selection-start-column="86" selection-end-line="85" selection-end-column="86" />
+        <state relative-caret-position="204">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
