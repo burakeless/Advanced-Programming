@@ -1,0 +1,169 @@
+.container {
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', Verdana, Helvetica;
+    font-size: 16px;
+}
+
+h1 {font-size: 3.5em;}
+
+/* -------------------flex------------------- */
+.flex {display: flex;}
+
+.flex-center {justify-content: center;}
+
+.expanded-table {
+    flex-wrap: wrap;
+    margin: 5px auto;
+}
+
+.col {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 1px;
+}
+.col .element, .col .outline {margin: 1px 0;}
+
+.row {
+    justify-content: center;
+    margin: 1px 0;
+}
+
+.row .element {margin: 0 1px;}
+
+/* ------------------element div-------------------- */
+.element, .outline {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    align-self: center;
+    cursor: pointer;
+}
+
+.el-symbol {
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    line-height: 60px;
+    transform: translateY(-50%);
+}
+
+.el-number, .el-weight {
+    font-size: 0.65em;
+    position: absolute;
+}
+
+.el-number {
+    top: 5%;
+    right: 5%;
+}
+
+.el-weight {
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+.outline {visibility: hidden;}
+
+/* ----------------element div colors------------------------ */
+.noble-gas {
+    border-color: #0099ff;
+    color: #0099ff;
+}
+.alkali-metal {
+    border-color: #612005;
+    color: #612005;
+}
+.alkaline-earth {
+    border-color: #90f;
+    color: #90f;
+}
+.nonmetal {
+    color: #9bf500;
+    border-color: #9bf500;
+}
+.basic-metal {
+    border-color: #f00;
+    color: #f00;
+}
+.semimetal {
+    border-color: #f80;
+    color: #f80;
+}
+.transition-metal {
+    color: #ff2462;
+    border-color: #ff2462;
+}
+.theoretical {
+    color: #969696;
+    border-color: #969696;
+}
+.halogen {
+    color: #1ff8ff;
+    border-color: #1ff8ff;
+}
+.actinide {
+    color: #ff00e1;
+    border-color: #ff00e1;
+}
+.lanthanide {
+    color: #0dc700;
+    border-color: #0dc700;
+}
+
+/* -----------------modal----------------------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.85);
+}
+
+.modal-content {
+    color: #fff;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 5px solid #888;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.modal-content .modal-content-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    line-height: 2.5px;
+    text-transform: capitalize;
+    font-size: 1.15em;
+}
+
+.modal-content .modal-content-text p:first-child {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.modal-content .modal-content-weight {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+.modal-content .modal-content-number {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
