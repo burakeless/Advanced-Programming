@@ -45,5 +45,14 @@
         <script src="elements.js"></script>
         <script src="helpers.js"></script>
         <script src="scripts.js"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('sw.js')
+                    .then((reg) => { console.log('SW Registered', reg) })
+                    .catch(console.log)
+            }
+
+        </script>
     </body>
 </html>
