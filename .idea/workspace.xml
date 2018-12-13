@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="461181f5-bb97-4874-8eec-75a73abebd64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PeriodicTable/elements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PeriodicTable/helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PeriodicTable/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PeriodicTable/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PeriodicTable/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Advanced-Programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Advanced-Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PeriodicTable/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PeriodicTable/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PeriodicTable/sw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TermProject/PTmain.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TermProject/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TermProject/periodictable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeriodicTable/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PeriodicTable/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeriodicTable/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/PeriodicTable/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mstile-150x150.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,51 +27,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeriodicTable/elements.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1478">
-              <caret line="945" column="2" selection-start-line="945" selection-start-column="2" selection-end-line="945" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeriodicTable/helper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4284">
-              <caret line="297" column="1" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
-              <folding>
-                <element signature="e#19#743#0" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/PeriodicTable/helpers.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PeriodicTable/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeriodicTable/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/PeriodicTable/scripts.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PeriodicTable/style.css">
+        <entry file="file://$PROJECT_DIR$/PeriodicTable/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="168" column="1" lean-forward="true" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
+            <state relative-caret-position="-1071">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -83,8 +64,8 @@
         <option value="package.json" />
         <option value="tsconfig.json" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -107,6 +88,7 @@
       <find>group-metadata</find>
       <find>group-forms</find>
       <find>ani</find>
+      <find>backgr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,9 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fetchRemoteFile.html" />
-        <option value="$PROJECT_DIR$/inspectorWork/work/Timing.html" />
-        <option value="$PROJECT_DIR$/Timing.html" />
         <option value="$PROJECT_DIR$/Animation.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/table.html" />
@@ -153,7 +132,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Classwork8/PromiseFetchCache.html" />
         <option value="$PROJECT_DIR$/manifest.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/TermProject/main.css" />
         <option value="$PROJECT_DIR$/TermProject/PTmain.css" />
@@ -161,16 +139,21 @@
         <option value="$PROJECT_DIR$/PeriodicTable/main.css" />
         <option value="$PROJECT_DIR$/PeriodicTable/periodictable.html" />
         <option value="$PROJECT_DIR$/PeriodicTable/periodictable.js" />
-        <option value="$PROJECT_DIR$/PeriodicTable/elements.js" />
         <option value="$PROJECT_DIR$/PeriodicTable/helper.js" />
         <option value="$PROJECT_DIR$/PeriodicTable/script.js" />
         <option value="$PROJECT_DIR$/PeriodicTable/style.css" />
+        <option value="$PROJECT_DIR$/PeriodicTable/elements.js" />
+        <option value="$PROJECT_DIR$/PeriodicTable/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/PeriodicTable/manifest.json" />
+        <option value="$PROJECT_DIR$/PeriodicTable/sw.js" />
         <option value="$PROJECT_DIR$/PeriodicTable/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="538" />
+    <option name="y" value="-11" />
     <option name="width" value="814" />
     <option name="height" value="877" />
   </component>
@@ -182,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,37 +178,32 @@
               <item name="Advanced-Programming" type="462c0819:PsiDirectoryNode" />
               <item name="PeriodicTable" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Advanced-Programming" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="TextFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="settin&#9;ACTION&#9;ShowSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/İndirilenler/Sıkıştırılmış/p" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHubProjects\Advanced-Programming\PeriodicTable" />
+      <recent name="D:\GitHubProjects\Advanced-Programming\images" />
+      <recent name="D:\GitHubProjects\Advanced-Programming\Classwork8" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHubProjects\Advanced-Programming\PeriodicTable" />
       <recent name="D:\GitHubProjects\Advanced-Programming" />
       <recent name="D:\GitHubProjects\Advanced-Programming\images" />
       <recent name="D:\GitHubProjects\Advanced-Programming\TextFiles" />
       <recent name="D:\GitHubProjects\Advanced-Programming\JSfiles" />
-      <recent name="D:\GitHubProjects\Advanced-Programming\Homework2" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHubProjects\Advanced-Programming\images" />
-      <recent name="D:\GitHubProjects\Advanced-Programming\Classwork8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,22 +259,23 @@
       <workItem from="1544448401161" duration="12197000" />
       <workItem from="1544533232292" duration="3851000" />
       <workItem from="1544547582238" duration="182000" />
-      <workItem from="1544616320768" duration="294000" />
+      <workItem from="1544616320768" duration="930000" />
+      <workItem from="1544695305011" duration="1879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117502000" />
+    <option name="totallyTimeSpent" value="120017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="0" width="814" height="877" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27319586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13371356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32845744" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32845744" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -310,6 +290,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13371356" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32845744" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3257979" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -336,142 +336,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TextFiles/text1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextFiles/Students.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/ie8.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/ie9.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork2/CharCounter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#503#531#0" />
-            <element signature="e#542#682#0" />
-            <element signature="e#699#738#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork4/Inspector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#889#917#0" />
-            <element signature="e#928#1068#0" />
-            <element signature="e#1085#1124#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork5/FileOperations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2249#2277#0" />
-            <element signature="e#2288#2428#0" />
-            <element signature="e#2445#2484#0" />
-            <element signature="n#style#0;n#input#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/DatabaseBasedStudentSystem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1741#1769#0" />
-            <element signature="e#1780#1920#0" />
-            <element signature="e#1937#1976#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework3/Animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#808#836#0" />
-            <element signature="e#847#987#0" />
-            <element signature="e#1004#1043#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork2/ArrayFunctions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1227#1255#0" />
-            <element signature="e#1266#1406#0" />
-            <element signature="e#1423#1462#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework1/ArrayStudentSystem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="57" selection-start-line="57" selection-end-line="84" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-            <element signature="e#6#12#0" expanded="true" />
-            <element signature="e#12#18#0" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2022#2050#0" />
-            <element signature="e#2061#2201#0" />
-            <element signature="e#2218#2257#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework2/Database.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork3/DataAnalysis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#554#582#0" />
-            <element signature="e#593#733#0" />
-            <element signature="e#750#789#0" />
-            <element signature="n#style#0;n#input#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Modify_HTML_Items_And_Chessboard.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/navbar.css" />
     <entry file="file://$PROJECT_DIR$/images/bk16.png">
       <provider selected="true" editor-type-id="images" />
@@ -497,25 +361,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="425">
             <caret line="25" column="121" selection-start-line="25" selection-start-column="121" selection-end-line="25" selection-end-column="121" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -546,46 +403,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="1652" column="20" selection-start-line="1652" selection-start-column="20" selection-end-line="1652" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TermProject/PTmain.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
-          <folding>
-            <element signature="e#5#150#0" />
-            <element signature="e#157#233#0" />
-            <element signature="e#238#305#0" />
-            <element signature="e#317#341#0" />
-            <element signature="e#342#424#0" />
-            <element signature="e#425#509#0" />
-            <element signature="e#511#1652#0" />
-            <element signature="e#1667#1736#0" />
-            <element signature="e#1753#1771#0" />
-            <element signature="e#1787#1837#0" />
-            <element signature="e#1861#1884#0" />
-            <element signature="e#1928#1983#0" />
-            <element signature="e#597#631#0" />
-            <element signature="e#724#758#0" />
-            <element signature="e#855#889#0" />
-            <element signature="e#930#964#0" />
-            <element signature="e#1061#1095#0" />
-            <element signature="e#1184#1218#0" />
-            <element signature="e#1304#1338#0" />
-            <element signature="e#1423#1457#0" />
-            <element signature="e#1542#1576#0" />
-            <element signature="e#1667#1701#0" />
-            <element signature="e#1801#1835#0" />
-            <element signature="e#3603#3654#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TermProject/PTmain.css" />
     <entry file="file://$PROJECT_DIR$/TermProject/main.css" />
     <entry file="file://$PROJECT_DIR$/Classwork7/FirstTimePWA.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,49 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TermProject/periodictable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="61" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#12612#12616#0" expanded="true" />
-            <element signature="e#12622#12626#0" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#13246#13250#0" expanded="true" />
-            <element signature="e#13258#13262#0" expanded="true" />
-            <element signature="n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#13872#13876#0" expanded="true" />
-            <element signature="e#13882#13886#0" expanded="true" />
-            <element signature="n#div#3;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#14318#14322#0" expanded="true" />
-            <element signature="e#14329#14333#0" expanded="true" />
-            <element signature="n#div#4;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#15124#15128#0" expanded="true" />
-            <element signature="e#15137#15141#0" expanded="true" />
-            <element signature="n#div#5;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#15824#15828#0" expanded="true" />
-            <element signature="e#15833#15837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TermProject/periodictable.html" />
     <entry file="file://$PROJECT_DIR$/PeriodicTable/main.css" />
     <entry file="file://$PROJECT_DIR$/PeriodicTable/periodictable.html" />
     <entry file="file://$PROJECT_DIR$/PeriodicTable/periodictable.js" />
@@ -709,41 +485,98 @@
     <entry file="file://$PROJECT_DIR$/PeriodicTable/transform.js" />
     <entry file="file://$PROJECT_DIR$/PeriodicTable/tableData.js" />
     <entry file="file://$PROJECT_DIR$/PeriodicTable/createTable.js" />
-    <entry file="file://$PROJECT_DIR$/PeriodicTable/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="297" column="1" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
-          <folding>
-            <element signature="e#19#743#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeriodicTable/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeriodicTable/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="168" column="1" lean-forward="true" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/helper.js" />
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/script.js" />
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/style.css" />
     <entry file="file://$PROJECT_DIR$/PeriodicTable/elements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1478">
-          <caret line="945" column="2" selection-start-line="945" selection-start-column="2" selection-end-line="945" selection-end-column="2" />
+        <state relative-caret-position="221">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/helpers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/scripts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="1188" column="8" selection-start-line="1188" selection-start-column="8" selection-end-line="1188" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bk.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon-16x16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/safari-pinned-tab.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-chrome-256x256.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.webmanifest">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mstile-150x150.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-chrome-192x192.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PeriodicTable/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="10" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,14 @@
+{
+  "name": "Burak Keles",
+  "start_url": "https://burakeless.github.io/Advanced-Programming/PeriodicTable",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "cyan",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

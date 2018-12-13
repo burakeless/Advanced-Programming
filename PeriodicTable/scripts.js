@@ -11,8 +11,7 @@ headerEl = document.querySelector('h1');
 elements.forEach(function(element) {
 
     elementContent = '<div class="el-symbol">' + element.symbol + '</div>' +
-                '<div class="el-number">' + element.number + '</div>' +
-                '<div class="el-weight">' + element.weight + '</div>';
+                '<div class="el-number">' + element.number + '</div>';
 
     modalContent = '<div class="modal-content">' +
                         '<div class="modal-content-text"><p>' + element.name + '</p><p>' + element.type + '</p><p>' + element.year + '</p></div>' +
