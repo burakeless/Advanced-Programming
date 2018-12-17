@@ -1,4 +1,4 @@
-var elDiv, modalDiv, elementContent, modalContent, elPlaceholder, periodicTable, columns, expandedTable, rows, headerEl, elements, modal;
+var elementDiv, modalDiv, elementContent, modalContent, elementPlaceHolder, periodicTable, columns, expandedTable, rows, headerEl, elements, modal;
 
 periodicTable = document.querySelector('.periodic-table');
 columns = document.querySelectorAll('.col');
@@ -10,23 +10,23 @@ headerEl = document.querySelector('h1');
 
 elements.forEach(function(element) {
 
-    elementContent = '<div class="el-symbol">' + element.symbol + '</div>' +
-                '<div class="el-number">' + element.number + '</div>';
+    elementContent = '<div class="element-symbol">' + element.symbol + '</div>' +
+        '<div class="element-number">' + element.number + '</div>';
 
     modalContent = '<div class="modal-content">' +
-                        '<div class="modal-content-text"><p>' + element.name + '</p><p>' + element.type + '</p><p>' + element.year + '</p></div>' +
-                        '<div class="modal-content-weight">' + element.weight + '</div>' +
-                        '<div class="modal-content-number">' + element.number + '</div>' +
-                   '</div>';
+        '<div class="modal-content-text"><p>' + element.name + '</p><p>' + element.type + '</p>'+
+        '<div class="modal-content-weight">' + element.weight + '</div>' +
+        '<div class="modal-content-number">' + element.number + '</div>' +
+        '</div>';
 
     if (element.number === '57' || element.number === '89') {
-        elPlaceholder = document.createElement('div');
-        elPlaceholder.classList.add('outline');
+        elementPlaceHolder = document.createElement('div');
+        elementPlaceHolder.classList.add('outline');
     }
 
-    elDiv = document.createElement('div');
-    elDiv.classList.add('element');
-    elDiv.innerHTML = elementContent;
+    elementDiv = document.createElement('div');
+    elementDiv.classList.add('element');
+    elementDiv.innerHTML = elementContent;
 
     modalDiv = document.createElement('div');
     modalDiv.className = 'modal';

@@ -1,13 +1,13 @@
 .container {
     width: 100%;
     text-align: center;
-    font-family: 'Lato', Verdana, Helvetica;
     font-size: 16px;
-
 }
 
-h1 {font-size: 3.5em;
-color: white;}
+body { background: #111111;}
+
+h1 {font-size: 2em;
+    color: white;}
 
 /* -------------------flex------------------- */
 .flex {display: flex;}
@@ -43,7 +43,7 @@ color: white;}
     cursor: pointer;
 }
 
-.el-symbol {
+.element-symbol {
     font-weight: bold;
     font-size: 1.5em;
     position: absolute;
@@ -54,17 +54,17 @@ color: white;}
     transform: translateY(-50%);
 }
 
-.el-number, .el-weight {
+.element-number, .element-weight {
     font-size: 0.65em;
     position: absolute;
 }
 
-.el-number {
+.element-number {
     top: 5%;
     right: 5%;
 }
 
-.el-weight {
+.element-weight {
     bottom: 5%;
     left: 0;
     right: 0;
@@ -74,47 +74,47 @@ color: white;}
 
 /* ----------------element div colors------------------------ */
 .noble-gas {
+    color: #ffffff;
     border-color: #0099ff;
-    color: #0099ff;
 }
 .alkali-metal {
+    color: #ffffff;
     border-color: #612005;
-    color: #612005;
 }
 .alkaline-earth {
+    color: #ffffff;
     border-color: #90f;
-    color: #90f;
 }
 .nonmetal {
-    color: #9bf500;
+    color: #ffffff;
     border-color: #9bf500;
 }
 .basic-metal {
+    color: #ffffff;
     border-color: #f00;
-    color: #f00;
 }
 .semimetal {
+    color: #ffffff;
     border-color: #f80;
-    color: #f80;
 }
 .transition-metal {
-    color: #ff2462;
+    color: #ffffff;
     border-color: #ff2462;
 }
 .theoretical {
-    color: #969696;
+    color: #ffffff;
     border-color: #969696;
 }
 .halogen {
-    color: #1ff8ff;
+    color: #ffffff;
     border-color: #1ff8ff;
 }
 .actinide {
-    color: #ff00e1;
+    color: #ffffff;
     border-color: #ff00e1;
 }
 .lanthanide {
-    color: #0dc700;
+    color: #ffffff;
     border-color: #0dc700;
 }
 
@@ -127,17 +127,16 @@ color: white;}
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
     background-color: rgba(0,0,0,0.85);
 }
 
 .modal-content {
     color: #fff;
-    background-color: #fefefe;
+    background-color: #000000;
     margin: 15% auto;
-    border: 5px solid #888;
-    width: 250px;
-    height: 250px;
+    border: 3px solid #888;
+    width: 200px;
+    height: 200px;
     position: relative;
 }
 
@@ -148,7 +147,6 @@ color: white;}
     right: 0;
     transform: translateY(-50%);
     line-height: 2.5px;
-    text-transform: capitalize;
     font-size: 1.15em;
 }
 

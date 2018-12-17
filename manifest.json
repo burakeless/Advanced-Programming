@@ -2,7 +2,7 @@
   "name": "Burak Keles",
   "start_url": "https://burakeless.github.io/Advanced-Programming/",
   "display": "fullscreen",
-  "orientation": "portrait",
+  "orientation": "standalone",
   "background_color": "cyan",
   "icons": [
     {
