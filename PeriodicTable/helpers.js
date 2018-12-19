@@ -253,7 +253,7 @@ function displayModal() {
 }
 
 function closeModal(ev) {
-    if (ev.target === modal) {
+    if (ev.target == modal) {
         modal.style.display = 'none';
     }
 }

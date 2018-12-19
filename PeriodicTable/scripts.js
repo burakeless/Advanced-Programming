@@ -2,10 +2,8 @@ var elementDiv, modalDiv, elementContent, modalContent, elementPlaceHolder, peri
 
 periodicTable = document.querySelector('.periodic-table');
 columns = document.querySelectorAll('.col');
-
 expandedTable = document.querySelector('.expanded-table');
 rows = document.querySelectorAll('.row');
-
 headerEl = document.querySelector('h1');
 
 elements.forEach(function(element) {
