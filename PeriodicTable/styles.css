@@ -136,13 +136,16 @@ h1 {font-size: 2em;
 
 .modal-content {
     color: #fff;
-    background-color: #000000;
     margin: 15% auto;
     border: 3px solid #888;
     width: 200px;
     height: 200px;
     position: relative;
 }
+
+
+
+
 
 .modal-content .modal-content-text {
     position: absolute;

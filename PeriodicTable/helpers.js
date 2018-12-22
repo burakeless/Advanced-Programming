@@ -1,15 +1,15 @@
 let elementTypes = [
-    {type: 'noble-gas'},
-    {type: 'alkali-metal'},
-    {type: 'alkaline-earth'},
-    {type: 'nonmetal'},
-    {type: 'basic-metal'},
-    {type: 'semimetal'},
-    {type: 'transition-metal'},
-    {type: 'theoretical'},
-    {type: 'halogen'},
-    {type: 'actinide'},
-    {type: 'lanthanide'}
+    {type: 'noble-gas', color: '#0099ff'},
+    {type: 'alkali-metal', color: '#612005'},
+    {type: 'alkaline-earth', color: '#90f'},
+    {type: 'nonmetal', color: '#9bf500'},
+    {type: 'basic-metal', color: '#f00'},
+    {type: 'semimetal', color: '#f80'},
+    {type: 'transition-metal', color: '#ff2462'},
+    {type: 'theoretical', color: '#969696'},
+    {type: 'halogen', color: '#1ff8ff'},
+    {type: 'actinide', color: '#ff00e1'},
+    {type: 'lanthanide', color: '#0dc700'}
 ];
 
 function elementPlacement(num) {
@@ -249,6 +249,12 @@ function getWidth() {
 function displayModal() {
     modal = this.nextSibling;
     modalContent = modal.firstChild;
+
+    for (let i = 0; i < elementTypes.length; i++) {
+        if (this.classList.contains(elementTypes[i].type)) {
+            modalContent.style.backgroundColor = elementTypes[i].color;
+        }
+    }
     modal.style.display = 'block';
 }
 
