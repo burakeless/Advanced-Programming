@@ -79,19 +79,19 @@ h1 {font-size: 2em;
 /* ----------------element div colors------------------------ */
 .noble-gas {
     color: #ffffff;
-    border-color: #0099ff;
+    border-color: #bc00ff;
 }
 .alkali-metal {
     color: #ffffff;
-    border-color: #612005;
+    border-color: #fa7900;
 }
 .alkaline-earth {
     color: #ffffff;
-    border-color: #90f;
+    border-color: #f0ff0a;
 }
 .nonmetal {
     color: #ffffff;
-    border-color: #9bf500;
+    border-color: #0207f5;
 }
 .basic-metal {
     color: #ffffff;
@@ -99,11 +99,11 @@ h1 {font-size: 2em;
 }
 .semimetal {
     color: #ffffff;
-    border-color: #f80;
+    border-color: #6788ff;
 }
 .transition-metal {
     color: #ffffff;
-    border-color: #ff2462;
+    border-color: #55f500;
 }
 .theoretical {
     color: #ffffff;
@@ -119,7 +119,7 @@ h1 {font-size: 2em;
 }
 .lanthanide {
     color: #ffffff;
-    border-color: #0dc700;
+    border-color: #5c8826;
 }
 
 /* -----------------modal----------------------- */
