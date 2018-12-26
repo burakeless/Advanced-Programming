@@ -41,11 +41,11 @@
 	 */
 	$.fn.panel = function(userConfig) {
 
-		// No elements?
+		// No elementsTwo?
 			if (this.length == 0)
 				return $this;
 
-		// Multiple elements?
+		// Multiple elementsTwo?
 			if (this.length > 1) {
 
 				for (var i=0; i < this.length; i++)
@@ -306,11 +306,11 @@
 			if (typeof (document.createElement('input')).placeholder != 'undefined')
 				return $(this);
 
-		// No elements?
+		// No elementsTwo?
 			if (this.length == 0)
 				return $this;
 
-		// Multiple elements?
+		// Multiple elementsTwo?
 			if (this.length > 1) {
 
 				for (var i=0; i < this.length; i++)
@@ -519,19 +519,19 @@
 	};
 
 	/**
-	 * Moves elements to/from the first positions of their respective parents.
+	 * Moves elementsTwo to/from the first positions of their respective parents.
 	 * @param {jQuery} $elements Elements (or selector) to move.
-	 * @param {bool} condition If true, moves elements to the top. Otherwise, moves elements back to their original locations.
+	 * @param {bool} condition If true, moves elementsTwo to the top. Otherwise, moves elementsTwo back to their original locations.
 	 */
 	$.prioritize = function($elements, condition) {
 
 		var key = '__prioritize';
 
-		// Expand $elements if it's not already a jQuery object.
+		// Expand $elementsTwo if it's not already a jQuery object.
 			if (typeof $elements != 'jQuery')
 				$elements = $($elements);
 
-		// Step through elements.
+		// Step through elementsTwo.
 			$elements.each(function() {
 
 				var	$e = $(this), $p,

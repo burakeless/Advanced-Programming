@@ -35,7 +35,7 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
-		// Prioritize "important" elements on mobile.
+		// Prioritize "important" elementsTwo on mobile.
 			skel.on('+mobile -mobile', function() {
 				$.prioritize(
 					'.important\\28 mobile\\29',
