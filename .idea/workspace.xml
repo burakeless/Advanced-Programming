@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="461181f5-bb97-4874-8eec-75a73abebd64" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PeriodicTable/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PeriodicTable/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PeriodicTable/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/PeriodicTable/scripts.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +31,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PeriodicTable/elements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state>
+              <caret line="827" column="2" lean-forward="true" selection-end-line="827" selection-end-column="2" />
+              <folding>
+                <element signature="e#15#16206#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +43,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PeriodicTable/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2558">
-              <caret line="312" column="1" selection-start-line="312" selection-start-column="1" selection-end-line="312" selection-end-column="1" />
+            <state>
+              <caret line="827" column="2" selection-start-line="827" selection-start-column="2" selection-end-line="827" selection-end-column="2" />
+              <folding>
+                <element signature="e#15#16206#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/PeriodicTable/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="125" />
+              <caret line="7" column="125" selection-start-line="7" selection-start-column="125" selection-end-line="7" selection-end-column="125" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -319,12 +326,12 @@
       <workItem from="1545577638335" duration="1156000" />
       <workItem from="1545631306013" duration="886000" />
       <workItem from="1545814115486" duration="1027000" />
-      <workItem from="1545825222809" duration="326000" />
+      <workItem from="1545825222809" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145376000" />
+    <option name="totallyTimeSpent" value="145641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -585,10 +592,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PeriodicTable/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="35" lean-forward="true" selection-end-line="264" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PeriodicTable/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="125" />
+          <caret line="7" column="125" selection-start-line="7" selection-start-column="125" selection-end-line="7" selection-end-column="125" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -614,22 +628,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PeriodicTable/elements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PeriodicTable/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="35" lean-forward="true" selection-end-line="264" selection-end-column="1" />
+        <state>
+          <caret line="827" column="2" lean-forward="true" selection-end-line="827" selection-end-column="2" />
+          <folding>
+            <element signature="e#15#16206#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PeriodicTable/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2558">
-          <caret line="312" column="1" selection-start-line="312" selection-start-column="1" selection-end-line="312" selection-end-column="1" />
+        <state>
+          <caret line="827" column="2" selection-start-line="827" selection-start-column="2" selection-end-line="827" selection-end-column="2" />
+          <folding>
+            <element signature="e#15#16206#0" />
+          </folding>
         </state>
       </provider>
     </entry>
